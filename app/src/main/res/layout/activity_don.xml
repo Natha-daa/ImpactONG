@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/donateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faire un Don"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/donationAmountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Montant du don" />
+
+    <Button
+        android:id="@+id/donateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faire un Don" />
+</LinearLayout>
